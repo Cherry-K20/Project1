@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* :root{
+ --primary-color:
+
+} */
+header{
+    background-color: rgb(209, 207, 205);
+}
+.head_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    width: 95%;
+    margin: 0 auto;
+}
+.nav_list ul{
+   list-style: none;
+   display: flex;
+   gap: 18px;
+}
+.nav_list li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.nav_list a:hover{
+color:white ;
+background-color: rgb(119, 145, 221);
+border: 1px solid rgb(119, 145, 221);
+padding: 3px 10px;
+border-radius: 5px;
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.btn_container{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    cursor: pointer;
+
+}
