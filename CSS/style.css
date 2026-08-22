@@ -3,18 +3,15 @@
     margin: 0;
     padding: 0;
 }
-/* :root{
- --primary-color:
 
-} */
 header{
-    background-color: rgb(209, 207, 205);
+    background-color: rgb(241, 239, 237);
 }
 .head_container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 0;
+    padding: 10px 0;
     width: 95%;
     margin: 0 auto;
 }
@@ -22,24 +19,29 @@ header{
    list-style: none;
    display: flex;
    gap: 18px;
+
 }
 .nav_list li a{
     text-decoration: none;
     color: black;
     font-size: 18px;
+    padding: 3px 10px;
+    border-radius: 5px;
+    border: 1px solid transparent;
 }
 .nav_list a:hover{
 color:white ;
-background-color: rgb(119, 145, 221);
-border: 1px solid rgb(119, 145, 221);
-padding: 3px 10px;
-border-radius: 5px;
+background-color: rgb(201, 200, 199);
+border: 1px solid   rgb(201, 200, 199);
+
+
 }
 .logo{
-    font-size: 20px;
-    font-weight: bold;
+     font-family: "Elsie", serif;
     text-decoration: none;
-    color: black;
+color: black;
+font-weight: 400;
+font-size: 20px;
 }
 .btn_container{
     display: flex;
@@ -47,4 +49,172 @@ border-radius: 5px;
     align-items: center;
     cursor: pointer;
 
+}
+
+.section_1{
+    height: 365px;
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-position: center;
+}
+.section_1_container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
+    margin: 0 auto;
+}
+.img_text{
+    color: white;font-size: 40px;
+  font-weight: 800;
+  padding-top: 150px;
+  line-height: 1;
+}
+.text1{
+    color: white;
+    font-size: 28px;
+    margin-top: 18px;
+    
+}
+.section2_container{
+    width: 95%;
+    margin: 0 auto;
+}
+.section2_container h2{
+    font-size: 18px;font-weight:bold;
+    margin-bottom: 10px;
+}
+.section2{
+    padding: 50px 0;
+    
+}
+.text2{
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.product_box{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+}
+.product{display: grid;
+height: 200px;
+border-radius: 5px;
+position: relative;
+overflow: hidden;
+
+
+}
+.product img{width: 100%;height: 100%;
+    object-fit:contain;
+  
+}
+.product span{
+    position: absolute;
+    left: 15px;
+    bottom: 17px;
+    font-size: 20px;
+}
+.center1{
+text-align: center;
+color: gray;
+font-size: 14px;
+margin-top: 25px;
+}
+.view_link{font-size: 15px;
+    display:inline-block;margin:5px 510px;
+   color: black;}
+   .view_link:hover{
+    cursor: pointer;color: gray;
+   }
+.section3_container{
+    width: 95%;
+    margin: 0 auto;}
+
+
+.clothes_container{
+    display: flex;gap: 15px;
+}
+.clothes_box {
+  flex: 1;
+}
+.clothes {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    border-radius: 5px;
+background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+}
+.clothes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 15px;
+}
+
+.heart{
+    position: absolute;top: 20px;right: 20px;
+    display: flex;align-items: center;justify-content: center;font-size: 20px;
+}
+
+.info{
+    font-size: 15px;margin-top: 10px;margin-left: 15px;font-weight: bold;
+}
+.info2{
+    background-color: black;color: white;padding: 4px 8px;font-size: 15px
+    ;margin-left: 5px;border: 1px solid black;border-radius: 5px;display: inline-block;
+}
+.price2{
+    font-size: 15px;color: black;margin-top: 13px;margin-left: 15px;
+}
+.price{
+    font-size: 15px;color: black;margin-top: 5px;margin-left: 15px;
+}
+.price del{
+    margin-right: 10px;font-size: 15px;
+}
+.card_info button{display: inline-block;width: 260px;
+height: 30px;border-radius: 5px;background-color: black;
+color: white;font-size: 13px;margin-top: 12px;border: none;margin-left: 13px;
+}
+.card_info button:hover{
+    cursor: pointer;background-color: gray;color:black;
+}
+footer{
+    margin-top: 50px;border-top: 1px solid black;
+}
+.footer_container{
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.brand h2{
+    font-size: 25px;margin-top: 8px;font-weight: bold;
+}
+.footer_info{
+    display: flex;flex-direction: column;gap: 10px;margin-left: 80px;
+}
+.footer_head{
+    font-size: 17px;margin-bottom: 18px;font-weight: bold;
+}
+.text5{
+    color: gray;font-size: 15px;margin-bottom: 10px;
+}
+.Logo{
+    font-size: 40px; font-family: "Elsie", serif;
+}
+.copyright{
+    height: 50px;background-color: black;color: gray;display: flex;
+    align-items: center;justify-content: center;font-size: 15px;
 }
