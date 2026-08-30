@@ -201,6 +201,7 @@ console.log("---------------------------------");
  console.log(square(9))
  console.log("---------------------");
  function isEven(num){
+    let result;
  if(num%2==0)
    {result = "even";} 
 else{ result = "odd";}
