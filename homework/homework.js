@@ -1,10 +1,12 @@
-let number =8;
+//exercise 1
+ let number =8;
 if( number<0 ){
     console.log("negative");}
     else{
         console.log("positive");
     }
 console.log("------------------------");
+//exercise 2
 let age= 18;
 let nationality =true;
  if( age>=18 && nationality){
@@ -14,6 +16,7 @@ let nationality =true;
   }
 
 console.log("-----------------------");
+//exercise3
  let amount= 30;
  if( amount>=50){
     console.log(" free delivery");
@@ -109,7 +112,8 @@ switch(month){
     case 12:
         console.log("December");    
         break;
-       
+    default:
+        console.log("Invalid month");   
 }
 // Exercise 2: Traffic Light
 // Question: Ask the user to enter a traffic light color.
@@ -127,6 +131,9 @@ switch(color){
         break;
     case "green": 
         console.log("Go");
+        break;
+     default:
+        console.log("invalid");   
         break;
 
 }
@@ -151,6 +158,9 @@ case 3:
     break;
 case 4:
     console.log("exist");
+    break;
+ default:
+    console.log("menu doesn't exist");   
     break;
 }
 // Exercise 1: Print Even Numbers
@@ -208,5 +218,6 @@ else{ result = "odd";}
  return result;
  }
 console.log(isEven(6));
+
 
  
